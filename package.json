@@ -1,0 +1,24 @@
+{
+  "name": "comp392-lab3",
+  "version": "1.0.0",
+  "description": "Comp392-lab3 Centennial College",
+  "main": "game.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riml/COMP392-Lab3.git"
+  },
+  "author": "Ilmir Taychinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riml/COMP392-Lab3/issues"
+  },
+  "homepage": "https://github.com/Riml/COMP392-Lab3#readme"
+}
