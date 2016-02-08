@@ -57,7 +57,7 @@ function init() {
     scene.add(plane);
     console.log("Added Plane Primitive to scene...");
     //Add a Cube to the Scene
-    cubeMaterial = new LambertMaterial({ color: 0x00ff00 });
+    cubeMaterial = new LambertMaterial({ color: 0xBadbad });
     cubeGeometry = new CubeGeometry(2, 2, 2);
     cube = new Mesh(cubeGeometry, cubeMaterial);
     cube.castShadow = true;

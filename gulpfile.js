@@ -33,3 +33,9 @@ gulp.task('transpile', function () {
         //.pipe(connect.reload());
 
 });
+
+gulp.task("watch", function () {
+    gulp.watch(TypeScriptSources, ['transpile']);
+    //gulp.watch(HTMLSources, ['html']);
+    //gulp.watch(CSSSources, ['css']);
+});
